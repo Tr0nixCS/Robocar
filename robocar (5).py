@@ -43,8 +43,8 @@ def main(stdscr):
             if State is 3:
                 stdscr.addstr("\nThe robocar is now listening to your commands!")
                 Gateway.Manual()
-                stdscr.addstr("\nUse the qweasd keys and space, to control the car.")
-                stdscr.addstr("\nTo exit press backspace!")
+                stdscr.addstr("\nUse the qweasd keys and m for stop, to control the car.")
+                stdscr.addstr("\nTo exit press p!")
 
         elif State is 1: # State Follow Wall
             stdscr.addstr("\nThe robocar is currently following a wall.")
@@ -71,8 +71,8 @@ def main(stdscr):
             if State is 3:
                 stdscr.addstr("\nThe robocar is now listening to your commands!")
                 Gateway.Manual()
-                stdscr.addstr("\nUse the qweasd keys and space, to control the car.")
-                stdscr.addstr("\nTo exit press backspace!")
+                stdscr.addstr("\nUse the qweasd keys and m for stop, to control the car.")
+                stdscr.addstr("\nTo exit press p!")
 
         elif State is 2: # State BOUNCE
             stdscr.addstr("\nThe robocar is currently bouncing around the room.")
@@ -99,8 +99,8 @@ def main(stdscr):
             if State is 3:
                 stdscr.addstr("\nThe robocar is now listening to your commands!")
                 Gateway.Manual()
-                stdscr.addstr("\nUse the qweasd keys and space, to control the car.")
-                stdscr.addstr("\nTo exit press backspace!")
+                stdscr.addstr("\nUse the qweasd keys and m for stop, to control the car.")
+                stdscr.addstr("\nTo exit press p!")
 
         elif State is 3: # State Manual
             c = stdscr.getch()
